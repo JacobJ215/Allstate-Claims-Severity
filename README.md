@@ -37,7 +37,7 @@ Two base models, XGBoost and LightGBM, are trained on the preprocessed data, and
 In the hyperparameter tuning step, a random search with cross-validation is performed to find the best hyperparameters for each base model. The final MAE is calculated on the validation set using the best model for each base model.
 
 ### Results
-The final MAE on the validation set is 0.4162073003058776 for XGBoost and 0.4156538377657095 for LightGBM.
+The final MAE on the validation set is 0.4162 for XGBoost and 0.4157 for LightGBM.
 
 LightGBM was selected as the final model for which we used it to make our predictions on the test dataset and submit our results for the competition.
 
